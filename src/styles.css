@@ -1,0 +1,26 @@
+:root {
+    --main-color: hotpink;
+    --second-color: aqua;
+    --third-color: yellow;
+    --fourth-color: BlueViolet;
+}
+
+
+#base {
+    border: 10px solid var(--main-color);
+    background-color: var(--third-color);
+    border-radius: 25px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+}
+
+#home {
+    background-color: var(--second-color);
+    height: 100px;
+    width: 50%;
+    text-align: center;
+    opacity: 70%;
+    border: 5px solid var(--fourth-color);
+    border-radius: 25px;
+}

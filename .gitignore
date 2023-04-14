@@ -1,0 +1,7 @@
+# base files to ignore
+node_modules
+package-lock.json
+
+# parcel files to ignore
+dist
+.parcel-cache
